@@ -21,7 +21,6 @@
 	    color: gray;
 	     }
 
-
 	    h1 {
 	    font: 24px sans-serif;
 	    color: gray;
@@ -54,7 +53,7 @@
 
 	  	csv = d3.nest()
 		  .key(function(d) { return d.region; })
-		  .sortKeys(d3.ascending)
+		  //.sortKeys(d3.ascending)
 		  .entries(csv)
 		  .map(function(d) {
 		    var region = d.key
@@ -74,6 +73,7 @@
 
 		$("#first").empty();
 
+
 		nv.addGraph(function() {
 
 		var chart = nv.models.lineChart();
@@ -88,6 +88,8 @@
 
 		chart.interpolate("basis");
 
+		// chart.align("left");
+
 		d3.select("#first")
 			.datum(data)
 		.transition().duration(300)
@@ -99,12 +101,25 @@
 				}
 			);
 
+		// change the default state of low income, lower middle , upper and world to off
+
+		var state = chart.state();
+		  state.disabled[10] = true;
+		  state.disabled[9] = true;
+		  state.disabled[8] = true;
+		  state.disabled[7] = true;		
+
+		chart.dispatch.changeState(state);
+		//chart.update();
+
 		d3.select(".nv-legendWrap")
   			.attr("transform", "translate(10,250)")
   			.on("click", function() { 
   					d3.select(".nv-legendWrap")
-  						.attr("transform", "translate(10,250)"); 
-  					});
+  						.attr("transform", "translate(10,250)");})
+  			.on("dblclick", function() { 
+  					d3.select(".nv-legendWrap")
+  						.attr("transform", "translate(10,250)");});
 
 		});
 
