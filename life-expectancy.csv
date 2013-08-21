@@ -1,0 +1,133 @@
+region,year,lex
+East Asia & Pacific ,1960,45.2
+East Asia & Pacific ,1965,51.8
+East Asia & Pacific ,1970,61.0
+East Asia & Pacific ,1975,63.5
+East Asia & Pacific ,1980,65.3
+East Asia & Pacific ,1985,66.9
+East Asia & Pacific ,1990,68.3
+East Asia & Pacific ,1995,69.2
+East Asia & Pacific ,2000,70.9
+East Asia & Pacific ,2005,72.6
+East Asia & Pacific ,2010,73.5
+East Asia & Pacific ,2011,73.7
+Europe & Central Asia ,1960,61.6
+Europe & Central Asia ,1965,63.6
+Europe & Central Asia ,1970,64.6
+Europe & Central Asia ,1975,65.4
+Europe & Central Asia ,1980,66.1
+Europe & Central Asia ,1985,67.3
+Europe & Central Asia ,1990,67.8
+Europe & Central Asia ,1995,67.3
+Europe & Central Asia ,2000,69.0
+Europe & Central Asia ,2005,70.1
+Europe & Central Asia ,2010,71.6
+Europe & Central Asia ,2011,72.0
+Latin America & Caribbean ,1960,55.9
+Latin America & Caribbean ,1965,58.1
+Latin America & Caribbean ,1970,60.0
+Latin America & Caribbean ,1975,62.2
+Latin America & Caribbean ,1980,64.3
+Latin America & Caribbean ,1985,66.2
+Latin America & Caribbean ,1990,68.1
+Latin America & Caribbean ,1995,69.8
+Latin America & Caribbean ,2000,71.4
+Latin America & Caribbean ,2005,72.7
+Latin America & Caribbean ,2010,74.0
+Latin America & Caribbean ,2011,74.2
+Middle East & North Africa ,1960,46.6
+Middle East & North Africa ,1965,49.6
+Middle East & North Africa ,1970,52.4
+Middle East & North Africa ,1975,55.6
+Middle East & North Africa ,1980,58.0
+Middle East & North Africa ,1985,61.0
+Middle East & North Africa ,1990,65.2
+Middle East & North Africa ,1995,67.7
+Middle East & North Africa ,2000,69.1
+Middle East & North Africa ,2005,70.1
+Middle East & North Africa ,2010,71.0
+Middle East & North Africa ,2011,71.2
+South Asia,1960,42.4
+South Asia,1965,46.0
+South Asia,1970,49.1
+South Asia,1975,52.4
+South Asia,1980,55.4
+South Asia,1985,57.3
+South Asia,1990,58.9
+South Asia,1995,60.7
+South Asia,2000,62.7
+South Asia,2005,64.6
+South Asia,2010,66.1
+South Asia,2011,66.4
+Sub-Saharan Africa ,1960,40.2
+Sub-Saharan Africa ,1965,42.3
+Sub-Saharan Africa ,1970,44.3
+Sub-Saharan Africa ,1975,46.4
+Sub-Saharan Africa ,1980,48.2
+Sub-Saharan Africa ,1985,49.5
+Sub-Saharan Africa ,1990,49.9
+Sub-Saharan Africa ,1995,49.9
+Sub-Saharan Africa ,2000,50.2
+Sub-Saharan Africa ,2005,52.2
+Sub-Saharan Africa ,2010,55.4
+Sub-Saharan Africa ,2011,55.9
+High income,1960,68.1
+High income,1965,69.3
+High income,1970,70.2
+High income,1975,71.5
+High income,1980,72.4
+High income,1985,73.6
+High income,1990,74.6
+High income,1995,74.9
+High income,2000,76.1
+High income,2005,77.2
+High income,2010,78.6
+High income,2011,78.9
+Low income,1960,41.8
+Low income,1965,44.3
+Low income,1970,45.7
+Low income,1975,47.2
+Low income,1980,50.0
+Low income,1985,52.2
+Low income,1990,53.4
+Low income,1995,54.3
+Low income,2000,55.7
+Low income,2005,58.0
+Low income,2010,60.7
+Low income,2011,61.1
+Lower middle income,1960,45.5
+Lower middle income,1965,48.7
+Lower middle income,1970,51.6
+Lower middle income,1975,54.4
+Lower middle income,1980,57.0
+Lower middle income,1985,58.7
+Lower middle income,1990,60.1
+Lower middle income,1995,61.3
+Lower middle income,2000,62.8
+Lower middle income,2005,64.4
+Lower middle income,2010,65.8
+Lower middle income,2011,66.0
+Upper middle income,1960,47.8
+Upper middle income,1965,53.7
+Upper middle income,1970,61.6
+Upper middle income,1975,64.2
+Upper middle income,1980,65.6
+Upper middle income,1985,67.2
+Upper middle income,1990,68.7
+Upper middle income,1995,69.7
+Upper middle income,2000,71.2
+Upper middle income,2005,72.7
+Upper middle income,2010,73.8
+Upper middle income,2011,74.0
+World,1960,52.5
+World,1965,55.8
+World,1970,59.6
+World,1975,61.6
+World,1980,63.2
+World,1985,64.5
+World,1990,65.7
+World,1995,66.4
+World,2000,67.7
+World,2005,69.0
+World,2010,70.3
+World,2011,70.5
