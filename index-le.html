@@ -28,14 +28,12 @@
 	    margin-left: 80px;
 	    margin-bottom: -110px;
 	    }
-
-
-
     </style>
 
 	<body>
 	
 	<h1>Life Expectancy By region</h1>
+
 	<svg id="first" style="height:600px; width: 500px"/>
 
 	<script>
@@ -74,16 +72,11 @@
 
 	function draw() {
 
-		//a bit hacky but simpler with NVD3 to clear the chart before "re-drawing"
-
 		$("#first").empty();
 
 		nv.addGraph(function() {
 
 		var chart = nv.models.lineChart();
-
-		// chart.xAxis
-		// 	.axisLabel("Survival Age");
 
 		chart.yAxis
 			.axisLabel("Life Expectacny")
@@ -94,11 +87,6 @@
 		chart.margin({left: 80});
 
 		chart.interpolate("basis");
-
-		// chart.tooltipContent(function(key,x,y) {
-		// 	return "<h3>" + key + "</h3>" + "<p>" + Math.round(y/1000) + "%" + " survived until age " + x + "</p>";});
-
-		//the business end: join the filtered data to chart
 
 		d3.select("#first")
 			.datum(data)
