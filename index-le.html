@@ -58,7 +58,7 @@
 		  .map(function(d) {
 		    var region = d.key
 		    var values = d.values.map(function(dd) {      
-		      return {x: dd.year, y: dd.lex}
+		      return {x: dd.year, y: Math.round(dd.lex)}
 		    })
 		    return {'key':region, 'values':values}
 		 });
@@ -88,7 +88,9 @@
 
 		chart.interpolate("basis");
 
-		// chart.align("left");
+		chart.tooltipContent(function(key,x,y) { console.log("tooltip!");
+	//	return "In " + key + " " + Math.round(y/1000) +"%" + " survived until age " + x;});
+		return "<h3>" + key + "</h3>" + "<p>" + Math.round(y/1000) + "%" + " survived until age " + x + "</p>";});
 
 		d3.select("#first")
 			.datum(data)
